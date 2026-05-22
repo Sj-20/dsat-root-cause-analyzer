@@ -62,16 +62,6 @@ streamlit run app.py
 ```
 
 
-## Deploy on Streamlit Community Cloud
-
-1. Push this repository to GitHub.
-2. Go to Streamlit Community Cloud.
-3. Create a new app.
-4. Choose your GitHub repo, branch, and `app.py` as the main file.
-5. Make sure `requirements.txt` is in the repository root.
-6. Optional: add `OPENAI_API_KEY` in Streamlit app secrets.
-7. Deploy.
-
 ## Evaluation
 
 The synthetic dataset includes `human_label`, so the app can calculate a basic agreement score between the classifier output and the provided labels.
