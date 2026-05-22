@@ -1,5 +1,8 @@
 # GenAI-Powered DSAT Root Cause Analyzer
 
+#Try the demo app here:
+https://hossain-dsat-root-cause-analyzer.streamlit.app/
+
 This project is a privacy-safe GenAI/analytics app for customer support operations. It analyzes DSAT cases, classifies root causes, identifies agent-driven vs non-agent-driven dissatisfaction, and generates coaching recommendations and RCA dashboards.
 
 ## Business Problem
