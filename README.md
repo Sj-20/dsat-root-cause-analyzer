@@ -58,21 +58,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Use OpenAI Mode
-
-Locally, create:
-
-```text
-.streamlit/secrets.toml
-```
-
-Then add:
-
-```toml
-OPENAI_API_KEY="your_api_key_here"
-```
-
-Do not commit `secrets.toml` to GitHub.
 
 ## Deploy on Streamlit Community Cloud
 
@@ -94,6 +79,3 @@ The synthetic dataset includes `human_label`, so the app can calculate a basic a
 - LLM output should not be used as the final basis for agent performance action without QA/TL review.
 - Real production use should include human-in-the-loop validation, calibration, and policy grounding.
 
-## CV Bullet Example
-
-Built and deployed a GenAI-powered DSAT Root Cause Analyzer using Python, Streamlit, and LLM APIs to classify customer dissatisfaction cases into agent-driven, non-agent-driven, mixed accountability, and QA validation categories. Designed structured prompts, synthetic datasets, dashboards, Excel exports, and evaluation workflows for contact center RCA and coaching.
